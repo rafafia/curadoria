@@ -7,7 +7,7 @@ st.title("Gerador de Orçamentos com Curadoria de Produtos + Imagem")
 st.markdown("Faça o upload de uma imagem ou descreva o ambiente. O sistema sugerirá produtos adequados do catálogo.")
 
 # Carregar catálogo com imagens
-catalogo = pd.read_excel("catalogo_com_imagens.xlsx")
+catalogo = pd.read_excel("catalogo_imagens_reais.xlsx")
 
 # Upload de imagem de referência
 imagem_cliente = st.file_uploader("📸 Envie uma imagem de referência do ambiente (opcional)", type=["jpg", "jpeg", "png"])
